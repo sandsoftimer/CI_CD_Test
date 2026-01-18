@@ -1,7 +1,5 @@
 name: Build project
-
 on: push
-
 jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
